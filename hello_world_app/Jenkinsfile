@@ -1,0 +1,6 @@
+import com.jenkins.pipelines.BusyboxPipeline
+
+new BusyboxPipeline(this,
+[
+    appName: "helloWorld"
+]).execute()
